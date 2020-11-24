@@ -1,0 +1,83 @@
+body, html {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #ffefd9;
+}
+
+#aa {
+    position: fixed;
+    top: 0px;
+}
+
+div.section {
+    position: fixed;
+    top: 40%;
+
+    width: 200px;
+    height: 200px;
+
+    border: 1px solid #555555;
+    border-radius: 12px;
+    background-color: #8E8D8A;
+    z-index: 2;
+}
+
+#github, #resume, #linkedin {
+    position: absolute;
+}
+
+.shadow1, .shadow2, .shadow3 {
+    position: fixed;
+    top: 42%;
+
+    width: 200px;
+    height: 200px;
+
+    border-radius: 12px;
+    background-color: #D8C3A5;
+
+    z-index: 0;
+}
+
+div.jackson {
+    position: fixed;
+
+    top: 10%;
+    left: 33%;
+    width: 400px;
+    height: 50px;
+    
+    border: 1px solid #9F5F56;
+    border-radius: 12px;
+    background-color: #E98074;
+
+    z-index: 2;
+}
+
+div.nameShadow {
+    position: fixed;
+
+    top: 12%;
+    left: 34%;
+    width: 400px;
+    height: 50px;
+
+    border-radius: 12px;
+    background-color: #D8C3A5;
+
+    z-index: 0;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18pt;
+    padding-left: 5%;
+}
+
+a {
+    position: absolute;
+    top: 45%;
+    left: 37%;
+}
